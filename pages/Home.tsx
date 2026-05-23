@@ -7,9 +7,9 @@ import {
   Star,
   Quote,
 } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import winvaise from "../assets/winvaise-team.jpg";
+import Navigation from "../src/components/Navigation";
+import Footer from "../src/components/Footer";
+import winvaise from "../src/assets/winvaise-team.jpg";
 /**
  * Home Page
  * Design: Industrial Minimalism

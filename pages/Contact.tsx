@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Mail, Phone, MapPin, Clock, ArrowRight } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
+import Navigation from "../src/components/Navigation";
+import Footer from "../src/components/Footer";
 
 /**
  * Contact Page

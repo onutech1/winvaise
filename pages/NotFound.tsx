@@ -1,7 +1,7 @@
-import { Link } from 'wouter';
-import { ArrowRight } from 'lucide-react';
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
+import { Link } from "wouter";
+import { ArrowRight } from "lucide-react";
+import Navigation from "../src/components/Navigation";
+import Footer from "../src/components/Footer";
 
 /**
  * NotFound Page (404)
@@ -26,7 +26,8 @@ export default function NotFound() {
           </h1>
 
           <p className="text-lg text-muted-foreground mb-8">
-            Sorry, the page you're looking for doesn't exist. It might have been moved or deleted.
+            Sorry, the page you're looking for doesn't exist. It might have been
+            moved or deleted.
           </p>
 
           <Link href="/">

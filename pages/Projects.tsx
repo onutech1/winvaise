@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
+import Navigation from "../src/components/Navigation";
+import Footer from "../src/components/Footer";
 
 /* Counter Component */
 function Counter({ end, suffix = "" }: { end: number; suffix?: string }) {

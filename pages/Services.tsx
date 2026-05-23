@@ -8,8 +8,8 @@ import {
   Briefcase,
   Paintbrush,
 } from "lucide-react";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
+import Navigation from "../src/components/Navigation";
+import Footer from "../src/components/Footer";
 
 /**
  * Services Page
